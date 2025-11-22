@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veria Tax | Crypto Compliance for Accountants</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: '#0f172a', // Navy
+                        accent: '#2563eb', // Royal Blue
+                        surface: '#f8fafc', // Off-white
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-600 antialiased bg-white">
+
+    <nav class="border-b border-slate-100 bg-white/80 backdrop-blur-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <svg class="h-8 w-auto text-brand fill-current" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m 257.4,39.1 c -0.8,0 -3.5,1.8 -6.0,4.0 -16.4,14.2 -38.1,25.6 -65.2,34.4 -13.9,4.5 -41.0,11.3 -72.4,18.2 -13.5,3.0 -25.4,5.7 -26.3,6.1 -1.6,0.6 -1.7,6.7 -1.4,97.3 l 0.3,96.6 2.1,9.5 c 6.1,27.6 17.0,50.7 35.1,74.5 6.5,8.5 23.2,25.5 33.3,34.0 22.2,18.6 52.2,36.3 85.9,50.9 7.1,3.1 11.9,4.5 14.9,4.6 3.0,0.0 7.7,-1.4 15.0,-4.6 15.3,-6.6 39.0,-18.7 50.7,-25.6 29.5,-17.7 51.0,-36.1 69.1,-59.3 15.7,-20.1 28.4,-46.0 33.6,-68.3 3.4,-14.9 3.9,-22.8 3.9,-71.9 0.0,-29.7 -0.4,-49.3 -0.9,-49.3 -0.9,0 -8.5,7.7 -15.2,15.4 l -3.4,3.9 -0.6,42.6 -0.6,42.6 -2.5,10.5 c -1.4,5.8 -3.6,13.4 -4.8,17 -8.8,25.4 -26.2,50.8 -47.8,69.7 -16.9,14.8 -32.8,25.5 -55.4,37.3 -15.6,8.1 -37.9,18.0 -40.8,18.0 -2.6,0 -28.4,-11.5 -42.8,-19.1 -23.4,-12.3 -41.1,-24.8 -57.0,-40.3 -12.2,-11.8 -19.7,-20.8 -27.6,-32.8 -10.2,-15.7 -17.3,-33.0 -21.8,-53.7 l -2.1,-9.5 -0.4,-86.1 c -0.3,-70.0 -0.1,-86.3 0.9,-87.1 0.7,-0.6 13.3,-3.8 28.0,-7.2 30.2,-7.0 51.4,-12.6 66.8,-17.7 13.9,-4.6 36.6,-15.8 46.3,-22.8 4.3,-3.1 8.4,-5.6 9.1,-5.6 0.7,0 3.7,1.8 6.7,4.1 13.4,10.0 32.6,19.1 53.6,25.5 20.3,6.1 51.3,13.6 53.6,12.9 1.2,-0.4 3.0,-1.4 4.1,-2.3 2.4,-2.1 8.6,-11.5 8.6,-13.0 0,-0.6 -1.0,-1.4 -2.3,-1.6 C 347.7,83.1 313.5,72.7 296.5,64.7 285.0,59.3 272.1,51.1 264.5,44.2 261.4,41.4 258.2,39.1 257.4,39.1 Z" />
+                </svg>
+                <span class="text-brand font-bold text-xl tracking-tight">Veria <span class="text-slate-400 font-normal">Tax</span></span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="https://protocol.veria.cc" class="hidden md:flex items-center gap-1 text-sm font-medium text-slate-500 hover:text-brand transition group">
+                    Veria Protocol
+                    <svg class="w-3 h-3 text-slate-400 group-hover:text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <div class="hidden md:block h-4 w-px bg-slate-200"></div>
+                <a href="https://veria.cc/partners/hub" class="bg-accent hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition shadow-sm">
+                    Launch Simulator
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-xs font-medium text-accent">
+                    New: Washington State ESD Automation
+                </div>
+                <h1 class="text-5xl font-bold text-brand tracking-tight leading-[1.1]">
+                    Crypto Payroll & Tax <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-blue-600">Without the Spreadsheet Hell.</span>
+                </h1>
+                <p class="text-lg text-slate-500 leading-relaxed max-w-lg">
+                    The first compliance platform for accountants with crypto-native clients. Automate spot-rate calculations, ESD filings, and DAC8 reporting in minutes.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="https://veria.cc/partners/hub" class="px-8 py-3.5 bg-accent hover:bg-blue-700 text-white rounded-lg font-bold transition shadow-lg shadow-blue-200 text-center">
+                        Try Interactive Demo
+                    </a>
+                    <a href="#" class="px-8 py-3.5 bg-white hover:bg-slate-50 text-slate-700 rounded-lg font-medium border border-slate-200 transition flex items-center justify-center gap-2">
+                        Join Waitlist
+                    </a>
+                </div>
+                <div class="pt-8 flex items-center gap-4 text-sm text-slate-400">
+                    <span>Trusted by teams at:</span>
+                    <span class="font-semibold text-slate-600">Pilot</span>
+                    <span class="font-semibold text-slate-600">•</span>
+                    <span class="font-semibold text-slate-600">Bitwave</span>
+                    <span class="font-semibold text-slate-600">•</span>
+                    <span class="font-semibold text-slate-600">TaxBit</span>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="absolute -inset-4 bg-gradient-to-tr from-blue-100 to-white rounded-3xl -z-10"></div>
+                <img src="https://placehold.co/600x400/f1f5f9/94a3b8?text=Veria+Tax+Dashboard+Preview" 
+                     class="rounded-xl shadow-2xl border border-slate-200 w-full" 
+                     alt="Veria Tax Dashboard">
+                
+                <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-xl border border-slate-100 w-64 animate-bounce" style="animation-duration: 3s;">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center text-green-600">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <div>
+                            <div class="text-xs text-slate-500">WA ESD Filing</div>
+                            <div class="text-sm font-bold text-brand">Ready to Submit</div>
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                        <div class="bg-green-500 h-full w-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="py-24 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-accent mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand mb-2">Automated Spot Rates</h3>
+                    <p class="text-sm text-slate-500">We pull the exact fiat value at the moment of transaction (ETH/USD) for 100% accurate payroll tax reporting.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-accent mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand mb-2">State-Ready Exports</h3>
+                    <p class="text-sm text-slate-500">Generate ESD, 1099, and W-2 forms formatted exactly for state web portals. No more manual data entry.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-accent mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand mb-2">Audit-Proof History</h3>
+                    <p class="text-sm text-slate-500">Every transaction is cryptographically linked to its source. Pass audits with a single "Export Evidence" click.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white border-t border-slate-100 text-center text-sm text-slate-400">
+        <p>&copy; 2025 Veria. Built for the Tokenized Economy.</p>
+    </footer>
+
+</body>
+</html>
