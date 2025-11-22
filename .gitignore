@@ -1,0 +1,11 @@
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Logs (just in case)
+*.log
+npm-debug.log
